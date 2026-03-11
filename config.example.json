@@ -1,0 +1,80 @@
+{
+  "organization": "https://dev.azure.com/your-org",
+  "main_layout": {
+    "default_input_mode": "insert",
+    "show_path_in_title": true,
+    "show_path_in_status_bar": false,
+    "status_bar_path_side": "right",
+    "list_highlight_mode": "off",
+    "default_project": ""
+  },
+  "search": {
+    "match_highlight_mode": "accent",
+    "rainbow_colors": [
+      "#f38ba8",
+      "#fab387",
+      "#f9e2af",
+      "#a6e3a1",
+      "#89dceb",
+      "#89b4fa",
+      "#cba6f7"
+    ]
+  },
+  "log_rendering": {
+    "mode": "auto"
+  },
+  "palette": {
+    "title": "#ff79c6",
+    "info": "#f8f8f2",
+    "error": "#ff5555",
+    "help": "#a4a8b3",
+    "accent": "#89b4fa",
+    "spinner": "#50b7ff",
+    "success": "#50fa7b",
+    "muted": "#7f849c",
+    "selected_foreground": "#f8f8f2",
+    "selected_background": "#3b4261",
+    "insert_selected_foreground": "#d9e0ee",
+    "insert_selected_background": "#414559",
+    "status_bar_foreground": "#ffffff",
+    "status_bar_background": "#2f334d",
+    "status_bar_secondary_foreground": "#f2f2f2",
+    "mode_normal_foreground": "#f8f8f2",
+    "mode_normal_background": "#3b4261",
+    "mode_insert_foreground": "#f8f8f2",
+    "mode_insert_background": "#ff8800"
+  },
+  "run_status_icons": {
+    "enabled": true,
+    "display_mode": "icons_and_text",
+    "default_icon": "[?]",
+    "map": {
+      "succeeded": "[OK]",
+      "failed": "[X]",
+      "skipped": "[-]",
+      "pending": "[...]",
+      "canceled": "[!]",
+      "cancelled": "[!]",
+      "inprogress": "[~]",
+      "partiallysucceeded": "[~]",
+      "notstarted": "[...]",
+      "na": "[-]"
+    }
+  },
+  "run_status_colors": {
+    "enabled": true,
+    "default_color": "#a4a8b3",
+    "map": {
+      "succeeded": "#50fa7b",
+      "failed": "#ff5555",
+      "skipped": "#a4a8b3",
+      "pending": "#a4a8b3",
+      "canceled": "#ffb86c",
+      "cancelled": "#ffb86c",
+      "inprogress": "#8be9fd",
+      "partiallysucceeded": "#f1fa8c",
+      "notstarted": "#a4a8b3",
+      "na": "#a4a8b3"
+    }
+  }
+}
