@@ -1,3 +1,4 @@
 lazydevops
 *.exe
 AGENTS.md
+dist/
